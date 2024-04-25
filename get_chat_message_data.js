@@ -1,5 +1,5 @@
-const Client = require("./aminojs/client").Client;
-const SubClient = require("./aminojs/sub_client").SubClient;
+const Client = require("amino228").Client;
+const SubClient = require("amino228").SubClient;
 const input = require('prompt-sync')();
 
 async function choose_from_sub_clients(client, debug = false) {
